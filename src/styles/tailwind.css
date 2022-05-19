@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.left {
+  @apply  inline-block  w-32 align-top font-light mb-2
+}
+
+.right {
+  @apply inline-block w-[calc(100%_-_8rem)] font-semibold align-top
+}
+
+@tailwind utilities;
